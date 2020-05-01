@@ -1,0 +1,244 @@
+
+body, body *{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+
+.main{
+    width: 1400px;
+    margin:0 auto;
+}
+.header{
+    margin-bottom: 100px;
+}
+
+.main-nav{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: baseline;
+}
+
+.content-area{
+    width: 940px;
+    margin:0 auto;
+}
+
+.logo{
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #fed136;
+    font-family: "Wisdom",serif;
+}
+
+.main-menu{
+    display: flex;
+    width: 485px;
+    justify-content: space-between;
+}
+
+.item-list{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+}
+
+.main-menu-link{
+        color: #222222;
+        text-decoration: none;
+    }
+
+.main-menu-link:hover, .main-menu-link:focus{
+    color: #fed136;
+}
+
+.servises{
+    padding-bottom: 102px;
+}
+
+.title-section{
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 75px;
+        color: #222222;
+        font-family: "Montserrat";
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+.sub-title{
+    text-align: center;
+    font-size: 16px;
+    color: #777777;
+    font-family: "Droid Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 76px;
+    }
+
+.articl-list{
+        display: flex;
+        justify-content: space-between;
+    }
+
+.article-item{
+        width: 290px;
+        padding-bottom: 18px;
+    }
+
+.article-title{
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #222222;
+        font-family: "Montserrat";
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.article-title::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 3px solid #fed136;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 26px;
+}
+
+.basket::before{
+    background-image: url("../img/Icon-Basket.png");
+}
+
+.laptop::before{
+    background-image: url("../img/Icon-Laptop.png");
+}
+
+.losked::before{
+    background-image: url("../img/Icon-Locked.png");
+}
+
+.article-content{
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.input-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 210px;
+    align-content: space-between;
+    margin-bottom: 28px;
+}
+
+.input-item{
+    width: 455px;
+}
+
+.input-fild{
+    width: 455px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    text-transform: uppercase;
+    box-sizing: border-box;
+   
+}
+
+.input-aria{
+    height: 210px;
+    display: block;
+    resize: none;
+}
+
+.input-fild::placeholder{
+    padding-left: 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #bbbbbb;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.input-aria::placeholder{
+    padding-top: 16px;
+}
+
+.button-form{
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 65px;
+    border-radius: 3px;
+    background-color: #fed136;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact{
+    background-color: #222222;
+    background-image: url("../img/Map-Image.png");
+    background-position: right 130px;
+    background-repeat: no-repeat;
+    padding-top: 98px;
+    padding-bottom: 114px;
+   
+}
+
+.contact .title-section{
+    color: #ffffff;
+}
+
+.contact .sub-title{
+    color: #777777;
+}
+
+.contact-form input[type='email']:focus:invalid{
+    border: 2px solid red;
+}
+
+.contact-form input[type='text']:focus:invalid{
+    border: 2px solid red;
+}
+
+
+.contact-form input[type='email']:valid{
+    border: 3px solid #fed136;
+}
+
+.contact-form input[required]:valid{
+    border: 3px solid #fed136;
+}
+
+.contact-form textarea:focus:invalid{
+    border: 2px solid red;
+}
+
+.contact-form textarea[required]:valid{
+    border: 3px solid #fed136;
+}
