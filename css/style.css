@@ -162,6 +162,7 @@ ul, ol {
     border: 1px solid #cccccc;
     text-transform: uppercase;
     box-sizing: border-box;
+    padding-left: 20px;
    
 }
 
@@ -169,19 +170,15 @@ ul, ol {
     height: 210px;
     display: block;
     resize: none;
+    padding-top: 16px;
 }
 
 .input-fild::placeholder{
-    padding-left: 20px;
     font-size: 14px;
     letter-spacing: 0px;
     color: #bbbbbb;
     font-family: "Montserrat";
     font-weight: 700;
-}
-
-.input-aria::placeholder{
-    padding-top: 16px;
 }
 
 .button-form{
